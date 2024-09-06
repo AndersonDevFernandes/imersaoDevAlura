@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fiscaliza Brasil</title>
+</head>
+<body>
+<header>
+ <h1>
+  Fiscaliza Brasil    
+ </h1>
+</header>
+<main>
+  <section class="resultados-pesquisa">
+    <p class="text-init">Descubra quanto cada estado brasileiro recebeu do governo federal.</p>
+    <input type="text" placeholder="Nome do estado">
+    <button onclick="pesquisar()">Pesquisar</button>    
+  </section>
+  <section class="resultados-pesquisa" id="resultados-pesquisa">
+  </section>
+</main>
+<footer>
+  <p>Fonte de pesquisa</p>
+  <a href="https://portaldatransparencia.gov.br/transferencias?ano=2024" target="_blank" class="link">Portal de Transparência</a>
+  <p>Feito por: Anderson Fernandes da Silva</p>
+</footer>
+
+<script src="Dados.js"></script>
+<script src="App.js"></script>
+
+</body>
+</html>
