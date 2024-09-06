@@ -15,19 +15,26 @@
 <main>
   <section class="resultados-pesquisa">
     <p class="text-init">Descubra quanto cada estado brasileiro recebeu do governo federal.</p>
-    <input type="text" placeholder="Nome do estado">
+    <input type="text" placeholder="Nome do estado" id="campo-pesquisa">
     <button onclick="pesquisar()">Pesquisar</button>    
   </section>
   <section class="resultados-pesquisa" id="resultados-pesquisa">
   </section>
 </main>
 <footer>
-  <p>Fonte de pesquisa</p>
-  <a href="https://portaldatransparencia.gov.br/transferencias?ano=2024" target="_blank" class="link">Portal de Transparência</a>
-  <p>Feito por: Anderson Fernandes da Silva</p>
+  <div class="like">   
+    <button id="likeButton">
+      <img src="./icons8-coração-48.png" alt="like">
+    </button>    
+      <span id="likeCount">0</span>
+      <p class="text-like">Gostou apoie o trabalho, deixe seu like, Obrigado</p>
+      <a href="https://portaldatransparencia.gov.br/transferencias?ano=2024" target="_blank" class="link">Fonte de pesquisa</a>
+  <a href="https://github.com/AndersonDevFernandes"><img src="icons8-github-100.png" alt="github" class="git"></a>
+  </div>
+  
 </footer>
 
-<script src="Dados.js"></script>
+<script src="dados.js"></script>
 <script src="App.js"></script>
 
 </body>

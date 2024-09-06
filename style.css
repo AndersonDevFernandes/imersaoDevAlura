@@ -144,6 +144,7 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    
 
 }
 
@@ -154,11 +155,52 @@ footer {
     padding: 0.5rem;
     border-radius: 2rem;
     margin: 0.8rem;
+    margin-right: 2rem;
     
 }
 
+/* like button */
+
+body {
+    text-align: center;
+}
+
+.like{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    margin-left: 4rem;
+}
+
+.text-like{
+    padding: 0.8rem;
+}
+
+#likeButton {
+    align-items: center;
+    background-color: transparent;
+    padding-top: 0.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5rem;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#likeCount {
+    font-size: 24px;
+    margin-top: 0.3rem;
+    margin-left: 3rem;
+}
 
 
+.git{
+    color: #FFFFFF;
+}
 
 @media (max-width: 768px) {
     h1 {
