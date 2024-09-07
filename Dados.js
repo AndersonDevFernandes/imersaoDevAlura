@@ -5,7 +5,8 @@ let dados = [
     valor: "R$ 5.899.487.976,53",
     extenso: "Cinco bilhões, oitocentos e noventa e nove milhões, quatrocentos e oitenta e sete mil, novecentos e setenta e seis reais e cinquenta e três centavos.",
     link: "https://pt.wikipedia.org/wiki/Acre",
-    imagem: "imagens/AC.png"
+    imagem: "imagens/AC.png",
+    tags: "Ac AC"
   },
   {
     titulo: "Alagoas - AL",
