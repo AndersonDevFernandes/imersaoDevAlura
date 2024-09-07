@@ -72,13 +72,10 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    text-shadow: 0px 0px 6px rgb(80, 80, 80);
--webkit-box-shadow: 0px 5px 40px -10px rgb(0, 0, 0);
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.793);
 transition: all 0.8s ease 0s;
-color: #30475E;
-background-color: #F5F7F8;
-border: #222831 1px solid;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -161,6 +158,7 @@ footer {
     margin: 0.8rem;
     margin-right: 2rem;    
 }
+
 
 .like{
     display: flex;
